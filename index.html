@@ -1,15 +1,18 @@
 <html>
     <head>
         <title>My Calculator</title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Neuton:800RalewayBree+Serif" rel="stylesheet">
     </head>
     <body>
     <h1 id="title">My Calculator</h1>
-    <div id="keyboard">
-       <table border="2">
+    <div id="keypad">
+       <table>
            <tr>
-               <td colspan="4" id="display-bar" height="20px"></td>
+               <td colspan="4" height="20px"></td><div id="display-bar"></div>
            </tr>
            <tr>
+               <td colspan="4"><div id="calculator-brand">TI-BUDI</div></td>
               <td><input type="button" value="9" onclick="display(9)"/></td>
               <td><input type="button" value="8" onclick="display(8)"/></td>
               <td><input type="button" value="7" onclick="display(7)"/></td>

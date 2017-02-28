@@ -6,3 +6,5 @@ function display(userInput){
     document.getElementById("display-bar").innerHTML += userInput;
     
 }
+
+
